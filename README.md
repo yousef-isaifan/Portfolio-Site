@@ -75,13 +75,3 @@ starter/
 * Modern CSS techniques (min/max, transitions, media queries)
 
 ---
-
-## 📷 Preview
-
-> Replace this section with screenshots or a live deployment link if available.
-
----
-
-## 📄 License
-
-This project is for educational purposes and personal branding only.
