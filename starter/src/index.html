@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../dist/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="dist/main.css" />
+  </head>
+
+  <body id="body">
+    <header class="header">
+      <div class="header__logo">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <div class="nav__links">
+        <a href="#latest-projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+    
+
+    <main id="main">
+      <section id="bio" class="bio">
+        <div class="bio__image">
+          <img src="img/profile.png" alt="Profile Picture" />
+        </div>
+        <h1 class="bio__heading">Yousef Isaifan – Software Developer</h1>
+        <p class="bio__description">
+          Computer Science graduate skilled in Flutter, FastAPI, Firebase, and
+          Emakin. Focused on automation, AI, and building real-time systems like
+          the Tariqi Navigation App. Currently developing workflow solutions at
+          Experts Turnkey Solutions.
+        </p>
+        <div class="bio__buttons">
+          <a href="#latest-projects">
+            <button class="button button--primary">View Projects</button>
+          </a>
+          <button class="button button--secondary">Contact Me</button>
+        </div>
+      </section>
+
+      <section id="latest-projects" class="latest-projects">
+        <h2 class="latest-projects__heading">Latest Projects</h2>
+        <div class="latest-projects__cards">
+          <div class="latest-projects__card">
+            <img src="img/project1.png" alt="Project 1" />
+            <h3>Tariqi Navigation</h3>
+            <p>AI-based checkpoint detection system using Telegram data, Firebase, and FastAPI backend.</p>
+          </div>
+          <div class="latest-projects__card">
+            <img src="img/project2.png" alt="Project 2" />
+            <h3>TicTacToe</h3>
+            <p>
+              <p>Java-based Tic Tac Toe game featuring MiniMax AI, two-player mode, and customizable settings.</p>
+            </p>
+          </div>
+          <div class="latest-projects__card">
+            <img src="img/project3.png" alt="Project 3" />
+            <h3>GeoMaster</h3>
+            <p>Interactive geography quiz game with multiple modes, including flags, capitals, and monuments.</p>
+          </div>
+        </div>
+        <div class="latest-projects__button">
+          <a class="button github-button" href="https://github.com/yousef-isaifan" target="_blank" rel="noopener">
+            <img src="img/github.svg" alt="GitHub" class="github-icon" />
+            See All Projects
+          </a>
+        </div>        
+      </section>
+    </main>
+
+    <footer class="footer">&copy; Yousef Isaifan 2025</footer>
+  </body>
+</html>
