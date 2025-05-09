@@ -1,4 +1,4 @@
-# Portfolio Homepage – Yousef Sami Isaifan
+# Portfolio Homepage – Yousef Isaifan
 
 Welcome to my responsive and accessible portfolio homepage!  
 This project was built as part of a front-end development course to demonstrate strong skills in HTML, SCSS, BEM methodology, responsive layout design, and accessibility best practices.
@@ -44,7 +44,7 @@ starter/
 
    ```bash
    npm install -g sass
-````
+
 
 2. **Compile SCSS** to CSS:
 
@@ -52,7 +52,7 @@ starter/
 
    ```bash
    sass src/scss/main.scss dist/main.css
-   ```
+   ````
 
    Or with npm:
 
